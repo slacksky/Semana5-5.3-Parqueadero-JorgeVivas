@@ -14,6 +14,8 @@ def crear_parqueadero(numero_niveles,cantidad_puestos):
       parqueadero.push(Puesto(cont_niveles,cont_vehiculos))
       cont_vehiculos+=1
     cont_niveles+=1
+  ##aqui se genera la "matriz" del parking
+  print(parqueadero.length())
   return parqueadero
 
 def obtener_puesto_libre(parqueadero):
@@ -43,7 +45,7 @@ def liberar_puesto_parqueadero(placa,parqueadero,vehiculos_en_parqueadero):
 
 vehiculos_en_parqueadero=typing.Dict[str, str]
 
-"""inspired by the teachers's IOW review logic"""
+"""inspired by the teachers's IOW review logic
 
 def verificar_puesto_libre(parqueadero):
   if parqueadero.length() > :
@@ -67,4 +69,4 @@ def menu_funciones():
 
   accion=1
   while accion== 1 or accion== 2:
-    if
+    if"""
